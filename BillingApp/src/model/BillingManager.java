@@ -2,7 +2,7 @@ package model;
 /*@ZoePiper
 This class describes the quantity of hours worked on projects
  */
-public class LineProject {
+public class BillingManager {
     //what does the Lineproject need to store?
     private Project project;
     private Material material;
@@ -17,9 +17,7 @@ public class LineProject {
 
     }
     // format line
-    public String format(){
 
-    }
 
 
 }

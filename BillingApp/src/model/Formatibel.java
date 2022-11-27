@@ -1,8 +1,8 @@
 package model;
 
-public interface Rateable {
+public interface Formatibel {
     // declare constant fields
     // declare methods that abstract
     // by default.
-    String Rating();
+public String format();
 }

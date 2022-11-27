@@ -1,5 +1,8 @@
 package model;
 
 public interface Rateability {
-    String Rate (Rate rate);
+    // declare constant fields
+    // declare methods that abstract
+    // by default.
+    String Rate ();
 }
