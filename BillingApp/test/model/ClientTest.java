@@ -22,7 +22,7 @@ South Pole
         String theFormat = c1.format();
 
         //Assert
-        //assertEquals("Eskimoo.bv\n Mrs.Claus\n North Pole Street 1\n info@eskimoo.com\n South Pole\n",theFormat);
+        assertEquals("Eskimoo.bv\nMrs.Claus\nNorth Pole Street 1\ninfo@eskimoo.com\nSouth Pole\n",theFormat);
     }
 
 

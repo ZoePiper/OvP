@@ -49,7 +49,7 @@ public class Invoice implements Formatibel {
 
     @Override
     public String format() {
-        return String.format("Invoice info");
+        return String.format(" info invullen");
         //TODO print en test versie
     }
 

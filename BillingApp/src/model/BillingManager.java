@@ -13,7 +13,7 @@ public class BillingManager {
     //add project
     // getTotalPrice Get the total of one line
     public double getTotalPrice(){
-        return Material.getPrice() * amount;
+        return 0;
 
     }
     // format line

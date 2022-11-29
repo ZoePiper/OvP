@@ -24,9 +24,7 @@ private  String country;
 
     @Override
     public String format() {
-        System.out.printf("%s\n%s\n%s\n%s\n%s\n",companyName,contactPersonName,address,email,country);
+        return String.format("%s\n%s\n%s\n%s\n%s\n",companyName,contactPersonName,address,email,country);
 
-        return null;
-        //TODO wat moet het returnen?
     }
 }

@@ -2,30 +2,33 @@ package model;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.Date;
 
-public class Time {
+public class Time implements  Formatibel{
+private LocalDate date;
+private LocalTime startTime;
+private LocalTime endTime;
+private String breakTime;
 
-    //Calculate duration 1
-//    Instant start = Instant.now();
-//    //your code
-//    Instant end = Instant.now();
-//    Duration timeElapsed = Duration.between(start, end);
-//System.out.println("Time taken: "+ timeElapsed.toMillis() +" milliseconds");
+    public Time(LocalDate date, LocalTime startTime, LocalTime endTime, String breakTime) {
+        this.date = date;
+        this.startTime = startTime;
+        this.endTime = endTime;
+        this.breakTime = breakTime;
+    }
 
-    //Calculate duration 2
-//
-//    String time1 = "16:00:00";
-//    String time2 = "19:00:00";
-//
-//    SimpleDateFormat format = new SimpleDateFormat("HH:mm:ss");
-//    Date date1 = format.parse(time1);
-//    Date date2 = format.parse(time2);
-//    long difference;
-//
-//    {
-//        difference = date2.getTime() - date1.getTime();
-//    }
+//TODO calculate projectTime
+//convert the time entered by the user to a time stamp and then calculate the difference,
 
 
+
+
+
+    @Override
+    public String format() {
+        return null;
+        //TODO Print format
+    }
 }
