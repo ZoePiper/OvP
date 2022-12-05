@@ -26,4 +26,8 @@ South Pole
     }
 
 
+//  Test email:   Verify too many at symbols (@).
+//    Verify all top-level domains.
+//    Verify non-existent top-level domains.
+    }
 }

@@ -27,4 +27,7 @@ private  String country;
         return String.format("%s\n%s\n%s\n%s\n%s\n",companyName,contactPersonName,address,email,country);
 
     }
+
+    public void confirmEmail() {
+    }
 }
